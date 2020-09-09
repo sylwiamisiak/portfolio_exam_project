@@ -12,3 +12,28 @@
  Text Domain:  astrachildtheme
 */
 
+@font-face { 
+font-family: Museo Sans; 
+src: url(http://localhost/portfolio_exam_project/wp-content/themes/astra-child-theme/fonts/museo_sans_ssv/museo_sans_100/MuseoSans-100.otf); 
+font-weight: normal; 
+}
+
+.main-header-bar .main-header-bar-navigation {
+    height: 100%;
+    color: aqua;
+    cursor: pointer;
+}
+
+.main-navigation li.menu-item a:hover{
+background-color: dimgrey;
+}
+
+.main-header-bar-wrap {
+    background-color: white;
+    position: fixed; 
+    width: 100%; 
+}
+
+.elementor-divider {
+    transform: rotate(-90deg); !important;
+}
