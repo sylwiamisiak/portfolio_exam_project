@@ -5,12 +5,14 @@
  Author:       Sylwia Misiak
  Author URI:   http://sylwiamisiak.com
  Template:     astra
- Version:      1.1.1
+ Version:      1.1.8
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrachildtheme
 */
+
+/* added Museo Sans font to the project */ 
 
 @font-face { 
 font-family: Museo Sans; 
@@ -20,7 +22,6 @@ font-weight: normal;
 
 .main-header-bar .main-header-bar-navigation {
     height: 100%;
-    color: aqua;
     cursor: pointer;
 }
 
@@ -28,12 +29,48 @@ font-weight: normal;
 background-color: dimgrey;
 }
 
+/* Made menu bar fixed and white */ 
 .main-header-bar-wrap {
     background-color: white;
     position: fixed; 
     width: 100%; 
 }
 
+/* need deviders and some text to be rotated - design thing */
 .elementor-divider {
     transform: rotate(-90deg); !important;
 }
+
+h4.elementor-heading-title.elementor-size-default {
+    transform: rotate(-90deg);
+}
+
+/* deleted padding in menu navigation bar */ 
+.main-header-bar {
+ padding: 0; !important;  
+}
+
+
+/* Made main navigation black */ 
+.ast-theme-transparent-header .main-header-menu, .ast-theme-transparent-header .main-header-menu .menu-link, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle {
+
+    color: black;
+}
+
+
+/* Wanted to make bigger spaces beetween images in the gallery section*/ 
+.elementor-image-gallery .gallery-item img {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
