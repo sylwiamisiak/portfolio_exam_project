@@ -5,7 +5,7 @@
  Author:       Sylwia Misiak
  Author URI:   http://sylwiamisiak.com
  Template:     astra
- Version:      1.1.8
+ Version:      1.3.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -18,6 +18,17 @@
 font-family: Museo Sans; 
 src: url(http://localhost/portfolio_exam_project/wp-content/themes/astra-child-theme/fonts/museo_sans_ssv/museo_sans_100/MuseoSans-100.otf); 
 font-weight: normal; 
+}
+
+
+.elementor-6 .elementor-element.elementor-element-982d397 .elementor-heading-title {
+    font-size: 68px;
+    font-weight: 300;
+    font-family: "Museo Sans";
+}
+
+.elementor-6 .elementor-element.elementor-element-b5084a2 .elementor-heading-title {
+    font-family: "Museo Sans";
 }
 
 .main-header-bar .main-header-bar-navigation {
@@ -53,8 +64,7 @@ h4.elementor-heading-title.elementor-size-default {
 
 /* Made main navigation black */ 
 .ast-theme-transparent-header .main-header-menu, .ast-theme-transparent-header .main-header-menu .menu-link, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle {
-
-    color: black;
+color: black; 
 }
 
 
@@ -71,7 +81,6 @@ h4.elementor-heading-title.elementor-size-default {
         position: relative;
         width: 100%;
         height: auto;
-        margin: 80px auto 0;
         justify-content: center;
         display: flex;
         flex-direction: row;
@@ -207,10 +216,6 @@ h4.elementor-heading-title.elementor-size-default {
     transform: translateY(0px);
 }
 
-.pic_title {
-    font-size: 20px !important;  
-    
-}
 
 
 
