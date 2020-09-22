@@ -1,0 +1,194 @@
+/*
+ Theme Name:   Astra Child Theme
+ Theme URI:    http://sylwiamisiak.com/astra-child/
+ Description:  Astra Child Theme
+ Author:       Sylwia Misiak
+ Author URI:   http://sylwiamisiak.com
+ Template:     astra
+ Version:      1.5.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astrachildtheme
+*/
+
+
+/* Added underline from center on hover to the menu items */
+li#menu-item-525 {
+  padding: 2px 0;
+  transition: 0.5s;
+}
+li#menu-item-525::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: grey;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: center;
+}
+li#menu-item-525:hover {
+  color: #95a5a6;
+}
+li#menu-item-525:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+
+li#menu-item-524 {
+  padding: 2px 0;
+  transition: 0.5s;
+}
+li#menu-item-524::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: grey;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: center;
+}
+li#menu-item-524:hover {
+  color: #95a5a6;
+}
+li#menu-item-524:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+li#menu-item-522 {
+  padding: 2px 0;
+  transition: 0.5s;
+}
+li#menu-item-522::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: grey;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: center;
+}
+li#menu-item-522:hover {
+  color: #95a5a6;
+}
+li#menu-item-522:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+li#menu-item-388 {
+  padding: 2px 0;
+  transition: 0.5s;
+}
+li#menu-item-388::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: grey;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: center;
+}
+li#menu-item-388:hover {
+  color: #95a5a6;
+}
+li#menu-item-388:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+div#page {
+    overflow-x: hidden;
+}
+
+.main-header-bar {
+    z-index: 4;
+    position: relative;
+    line-height: 2;
+    margin-top: 5px;
+  	margin-bottom: 5px;
+  	cursor: pointer; 
+}
+/* Made menu bar fixed and white */ 
+.main-header-bar-wrap {
+    background-color: white;
+    position: fixed; 
+    width: 100%; 
+}
+
+/* need deviders and some text to be rotated - design thing */
+.elementor-divider {
+    transform: rotate(-90deg); 
+}
+
+h4.elementor-heading-title.elementor-size-default {
+    transform: rotate(-90deg);
+}
+
+/* deleted padding in menu navigation bar */ 
+.main-header-bar {
+ padding: 0;  
+}
+
+
+/* Made main navigation black */ 
+.ast-theme-transparent-header .main-header-menu, .ast-theme-transparent-header .main-header-menu .menu-link, .ast-theme-transparent-header .ast-masthead-custom-menu-items, .ast-theme-transparent-header .ast-masthead-custom-menu-items a, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .menu-item > .ast-menu-toggle {
+color: black; 
+}
+
+
+ /* Made links in menu black */
+.ast-theme-transparent-header .main-header-menu .menu-item:hover > .menu-link, .ast-theme-transparent-header .main-header-menu .menu-item:hover > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .ast-masthead-custom-menu-items a:hover, .ast-theme-transparent-header .main-header-menu .focus > .menu-link, .ast-theme-transparent-header .main-header-menu .focus > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .current-menu-item > .menu-link, .ast-theme-transparent-header .main-header-menu .current-menu-ancestor > .menu-link, .ast-theme-transparent-header .main-header-menu .current-menu-item > .ast-menu-toggle, .ast-theme-transparent-header .main-header-menu .current-menu-ancestor > .ast-menu-toggle {
+    color: black;
+}
+
+/* Made z-index for footer 4 becuase bear was overlapping it and I wanted it to be hidden */
+section.ob-is-breaking-bad.elementor-section.elementor-top-section.elementor-element.elementor-element-db88dca.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
+    z-index: 4;
+}
+
+/*Bacground color of the submit buuton in wp-forms */ 
+.elementor-kit-39 button, .elementor-kit-39 input[type="button"], .elementor-kit-39 input[type="submit"], .elementor-kit-39 .elementor-button {
+    color: #454545; 
+    background-color: white;
+    border-radius: 0px 0px 0px 0px;
+    padding: 16px 40px 16px 40px;
+}
+
+
+/* Made space beetween portoflio filters and items bigger */ 
+.elpt-portfolio-filter {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* Added hover effect to the submit button in wp forms */ 
+.wpforms-form button[type=submit]:hover {
+    background-color: grey !important;
+ 	transform: scale (1.2) !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
